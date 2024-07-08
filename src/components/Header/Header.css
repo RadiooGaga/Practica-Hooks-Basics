@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10svh;
+    background-color: white;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    color:  rgb(58, 57, 57);
+}
+
+h1:hover {
+    cursor: pointer;
+}

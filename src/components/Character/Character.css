@@ -1,0 +1,24 @@
+.charactersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.imgCharacter {
+  
+    transition: transform 0.5s;
+}
+
+.imgCharacter.rotated {
+    transform: rotateX(180deg);
+}
+
+.imgCharacter:hover {
+    cursor: pointer;
+}
+
+.rotated {
+    transform: rotateX(180deg);
+}
