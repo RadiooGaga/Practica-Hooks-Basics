@@ -7,12 +7,7 @@
 }
 
 .imgCharacter {
-  
     transition: transform 0.5s;
-}
-
-.imgCharacter.rotated {
-    transform: rotateX(180deg);
 }
 
 .imgCharacter:hover {
@@ -21,4 +16,10 @@
 
 .rotated {
     transform: rotateX(180deg);
+}
+
+.characterDetails {
+    width: 100%;
+    padding: 10px;
+    background-color: aliceblue;
 }
